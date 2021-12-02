@@ -5,7 +5,7 @@ import styles from './index.css';
 
 export default () => {
 
-  console.log("getSystemInfoSync",wx.getSystemInfoSync())
+  console.log("getSystemInfoSync ",wx.getSystemInfoSync())
   return (
     <View className={styles.app}>
       <View className={styles.header}>
