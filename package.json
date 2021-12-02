@@ -1,0 +1,27 @@
+{
+  "name": "remax-template",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Remax Project",
+  "main": "index.js",
+  "keywords": [],
+  "author": "Alec <aleczhang@163.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "remax build -w -t wechat",
+    "build": "cross-env NODE_ENV=production remax build -t wechat"
+  },
+  "dependencies": {
+    "dayjs": "^1.10.4",
+    "mobx-react": "^7.0.6",
+    "react": "^16.14.0",
+    "react-dom": "^16.14.0",
+    "remax": "2.15.8",
+    "uglifyjs-webpack-plugin": "^2.2.0"
+  },
+  "devDependencies": {
+    "@remax/plugin-less": "^1.0.0",
+    "cross-env": "^7.0.2",
+    "less": "^4.1.0"
+  }
+}
